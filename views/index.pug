@@ -1,0 +1,68 @@
+doctype html
+html
+  head
+    title Shubham Dance Academy
+    style
+      include ../static/style.css
+  body
+    nav#navbar 
+        ul
+            div#logo
+                img(src="static/img/logo.png")
+                | HDA
+            li #[a(href="/") About] 
+            li #[a(href="/") Home] 
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact us]
+    section#introSection 
+        div Welcomes to shubham Cricket  Academy 
+        div.small Eat Sleep Play  Repeat
+    
+    section#missionSection 
+        h2 Our mission
+        div.card 
+            h3 Dance Perfection
+            div.card-box
+                div.card-img
+                    img(src="/static/img/1.png")
+
+                div.card-content    
+                    p This is the best cricket  academy of the universe
+        
+        div.card 
+            h3 Dance the way you like
+            div.card-box
+                div.card-img
+                    img(src="/static/img/2.png")
+
+                div.card-content    
+                    p This is the best cricket academy of the universe
+
+        
+        
+        div.card 
+            h3 Expert Teaching     
+            div.card-box
+                div.card-img
+                    img(src="/static/img/3.png")
+
+                div.card-content    
+                    p This is the best cricket academy of the universe
+
+            
+    
+    
+    
+    section#sponsorsSection 
+        h2 Our Sponsors
+        div#sponsors
+            img(src="/static/img/logo1.png", alt="Sponsors Image", Class="spImage")
+            img(src="/static/img/logo2.png", alt="Sponsors Image", Class="spImage")
+            img(src="/static/img/logo3.png", alt="Sponsors Image", Class="spImage")
+            img(src="/static/img/logo1.png", alt="Sponsors Image", Class="spImage")
+
+    footer#footer 
+        | Copyright 2022 ShubhamcricketAcademy.com | All rights reserved       
+    script
+      include ../static/index.js

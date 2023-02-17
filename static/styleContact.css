@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* width: 100%; */
+
+}
+.myInput{
+    font-size: 16px;
+   width: 40%;
+   padding: 9px;
+   margin: 8px;
+   border: 2px solid grey;
+   border-radius: 12px;
+   outline: none;
+}
+
+.btn{
+    padding: 8px 16px;
+    font-size: 18px;
+    border:3px solid black;
+    border-radius:10px;
+    color: white;
+    background-color:red;
+    cursor: pointer;
+    outline: none;
+    margin: 26px;
+}
+
+.container{
+    min-height: 75vh;
+    margin: 43px 0px;
+    /* display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center; */
+}
+
+.container h1{
+    font-family: 'Alegreya', serif;
+    font-size: 34px;
+}
